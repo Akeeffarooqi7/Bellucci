@@ -1,5 +1,5 @@
 /* =========================================================
-   LEONARDO'S — Editorial Italian
+   BELLUCCI'S — Editorial Italian (sample site)
    ========================================================= */
 (function () {
     'use strict';
@@ -193,7 +193,7 @@
             day: 'Wednesday',
             tag: 'Mercoledì',
             title: 'Eggplant <em>Parmigiana</em>',
-            desc: 'Twice-fried Sicilian eggplant, San Marzano gravy, fresh mozzarella, parmigiano-reggiano, basil — a Leonardo classic since 1924.',
+            desc: 'Twice-fried Sicilian eggplant, San Marzano gravy, fresh mozzarella, parmigiano-reggiano, basil — a Bellucci classic since 1924.',
             price: '$22',
             img: 'https://images.unsplash.com/photo-1572441713132-c542fc4fe282?w=1200&q=88',
             fb: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=1200&q=88'
