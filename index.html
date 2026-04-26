@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="Leonardo's Italian Deli & Catering — Authentic family-owned Italian catering in New City, NY. Since 1924." />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Leonardo's Italian Deli & Catering — Since 1924</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader__inner">
+            <div class="loader__logo">
+                <img src="assets/logo.jpg" data-fb="assets/logo.png,assets/logo.jpeg" alt="Leonardo's Italian Deli & Catering" />
+            </div>
+            <div class="loader__word">Buongiorno.</div>
+            <div class="loader__bar"><span></span></div>
+        </div>
+    </div>
+
+    <!-- Top Marquee -->
+    <div class="topbar">
+        <div class="topbar__track">
+            <span>★ Family-Owned Since 1924</span>
+            <span>·</span>
+            <span>Free Quote in 24hrs</span>
+            <span>·</span>
+            <span>Catering Across NY, NJ & CT</span>
+            <span>·</span>
+            <span>Today's Special — La Domenica Gravy</span>
+            <span>·</span>
+            <span>★ Family-Owned Since 1924</span>
+            <span>·</span>
+            <span>Free Quote in 24hrs</span>
+            <span>·</span>
+            <span>Catering Across NY, NJ & CT</span>
+            <span>·</span>
+            <span>Today's Special — La Domenica Gravy</span>
+            <span>·</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+        <div class="nav__inner container">
+            <a href="#home" class="nav__brand" aria-label="Leonardo's home">
+                <span class="nav__logo-plate">
+                    <img src="assets/logo.jpg" alt="Leonardo's Italian Deli & Catering" class="nav__logo" onerror="this.style.display='none'; this.parentElement.classList.add('nav__logo-plate--fallback');" />
+                    <span class="nav__brand-fallback" aria-hidden="true">
+                        <span class="nav__brand-mark">L</span>
+                    </span>
+                </span>
+                <span class="nav__brand-text">
+                    <small>Est. 1924 · New City, NY</small>
+                    <strong>Leonardo's</strong>
+                </span>
+            </a>
+
+            <nav class="nav__menu" id="navMenu" aria-label="Primary">
+                <a href="#home" class="nav__link">Home</a>
+                <a href="#about" class="nav__link">About</a>
+                <a href="#menu" class="nav__link">Menu</a>
+                <a href="#specials" class="nav__link">Daily Specials</a>
+                <a href="#catering" class="nav__link">Catering</a>
+                <a href="#delivery" class="nav__link">Delivery</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </nav>
+
+            <div class="nav__actions">
+                <a href="tel:+18456234500" class="nav__phone" aria-label="Call Leonardo's">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    (845) 623-4500
+                </a>
+                <a href="#delivery" class="btn btn--primary btn--sm">Order Now</a>
+            </div>
+
+            <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HOME / HERO -->
+    <section id="home" class="hero">
+        <div class="hero__bg-noise"></div>
+
+        <div class="hero__inner container">
+            <div class="hero__left">
+                <div class="hero__eyebrow reveal">
+                    <span class="dot"></span>
+                    <span>Authentic Italian · Since 1924</span>
+                </div>
+
+                <h1 class="hero__title">
+                    <span class="hero__line reveal" style="--d:.05s">Family</span>
+                    <span class="hero__line reveal" style="--d:.15s"><em>recipes</em>,</span>
+                    <span class="hero__line reveal" style="--d:.25s">served</span>
+                    <span class="hero__line reveal" style="--d:.35s">with <span class="ink-accent">love</span>.</span>
+                </h1>
+
+                <p class="hero__sub reveal" style="--d:.5s">
+                    Four generations. One family. The same hand-cut prosciutto, slow-simmered Sunday gravy, and fresh-pulled mozzarella that built our name in New City, New York.
+                </p>
+
+                <div class="hero__ctas reveal" style="--d:.6s">
+                    <a href="#delivery" class="btn btn--primary btn--lg">
+                        <span>Order Online</span>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#catering" class="btn btn--ghost btn--lg">
+                        <span>Book Catering</span>
+                    </a>
+                </div>
+
+                <div class="hero__meta reveal" style="--d:.75s">
+                    <div><strong>100+</strong><span>years of family</span></div>
+                    <div><strong>10k+</strong><span>events catered</span></div>
+                    <div><strong>★ 4.9</strong><span>average review</span></div>
+                </div>
+            </div>
+
+            <div class="hero__right">
+                <div class="hero__stack">
+                    <!-- #1 — Main hero photo, dominant -->
+                    <div class="hero__photo hero__photo--1" data-tilt="1">
+                        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=1600&q=90" data-fb="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1600&q=90" alt="Italian dinner spread" loading="eager" />
+                        <span class="hero__tag">Sunday Dinner</span>
+                    </div>
+
+                    <!-- #2 — Polaroid corner overlap (bottom-left of #1) -->
+                    <div class="hero__photo hero__photo--2" data-tilt="-1">
+                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1100&q=90" data-fb="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1100&q=90" alt="Hand-crafted pasta" loading="eager" />
+                    </div>
+
+                    <span class="hero__seal" aria-hidden="true">
+                        <span class="hero__seal-spin">
+                            <svg viewBox="0 0 200 200">
+                                <defs><path id="circ" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"/></defs>
+                                <text font-family="Inter" font-size="14" letter-spacing="3.5" fill="currentColor"><textPath href="#circ">FAMILY OWNED · SINCE 1924 · FAMILY OWNED · SINCE 1924 · </textPath></text>
+                            </svg>
+                        </span>
+                        <span class="hero__seal-mark">L</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__scroll">
+            <span>scroll</span>
+            <span class="hero__scroll-line"></span>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section section--light">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__media">
+                    <div class="about__media-back reveal">
+                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1200&q=88" data-fb="https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=1200&q=88,https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1200&q=88" alt="Marco Leonardo — 4th generation owner" loading="lazy" />
+                        <div class="about__nameplate">
+                            <span class="about__nameplate-eyebrow">— The Founder</span>
+                            <strong>Marco Leonardo</strong>
+                            <span class="about__nameplate-role">4th Generation Owner</span>
+                        </div>
+                    </div>
+                    <div class="about__media-front reveal" style="--d:.2s">
+                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1100&q=88" data-fb="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=1100&q=88" alt="Hand-crafted Italian dish" loading="lazy" />
+                    </div>
+                    <div class="about__sticker reveal" style="--d:.4s">
+                        <span>EST</span>
+                        <strong>1924</strong>
+                        <span>NEW CITY · NY</span>
+                    </div>
+                </div>
+
+                <div class="about__text">
+                    <span class="chapter reveal">02 — The Story</span>
+                    <h2 class="display reveal" style="--d:.1s">
+                        Some recipes are <em>too precious</em> to write down.
+                    </h2>
+
+                    <p class="reveal" style="--d:.2s">
+                        Leonardo's started in 1924 with a wood counter, a hand-written notebook of family recipes, and the simple idea that food made with care tastes different. A century later, very little has changed.
+                    </p>
+                    <p class="reveal" style="--d:.3s">
+                        We still bake before sunrise. We still slice prosciutto by hand. And we still answer the phone — because catering an event isn't a transaction, it's an invitation into our family.
+                    </p>
+
+                    <div class="about__signature reveal" style="--d:.4s">
+                        <span class="about__signature-name">Marco Leonardo</span>
+                        <span class="about__signature-role">4th Generation Owner</span>
+                    </div>
+
+                    <a href="#contact" class="btn btn--ink btn--lg reveal" style="--d:.5s">
+                        <span>Visit our deli</span>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- About marquee -->
+        <div class="about__marquee" aria-hidden="true">
+            <div class="about__marquee-track">
+                <span class="display-italic">Antipasti</span> <span class="dotsep">·</span>
+                <span class="display-italic">Primi</span> <span class="dotsep">·</span>
+                <span class="display-italic">Secondi</span> <span class="dotsep">·</span>
+                <span class="display-italic">Contorni</span> <span class="dotsep">·</span>
+                <span class="display-italic">Dolci</span> <span class="dotsep">·</span>
+                <span class="display-italic">Antipasti</span> <span class="dotsep">·</span>
+                <span class="display-italic">Primi</span> <span class="dotsep">·</span>
+                <span class="display-italic">Secondi</span> <span class="dotsep">·</span>
+                <span class="display-italic">Contorni</span> <span class="dotsep">·</span>
+                <span class="display-italic">Dolci</span> <span class="dotsep">·</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu section">
+        <div class="menu__bg" data-parallax="0.18" aria-hidden="true"></div>
+
+        <div class="container">
+            <div class="section__head">
+                <span class="chapter reveal">03 — The Menu</span>
+                <h2 class="display reveal" style="--d:.1s">A taste of <em>la cucina</em>.</h2>
+                <p class="section__sub reveal" style="--d:.2s">From hand-cut subs at lunch to Sunday gravy that simmers for six hours — every plate is built like Nonna's was.</p>
+            </div>
+
+            <div class="menu__tabs reveal" id="menuTabs">
+                <button class="menu__tab is-active" data-cat="antipasti">Antipasti</button>
+                <button class="menu__tab" data-cat="primi">Primi</button>
+                <button class="menu__tab" data-cat="secondi">Secondi</button>
+                <button class="menu__tab" data-cat="dolci">Dolci</button>
+            </div>
+
+            <div class="menu__panels">
+                <!-- ANTIPASTI -->
+                <div class="menu__panel is-active" data-cat="antipasti">
+                    <div class="menu__list">
+                        <article class="menu__item reveal">
+                            <span class="menu__num">01</span>
+                            <div class="menu__row">
+                                <h4>Antipasto della Casa</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$22</span>
+                            </div>
+                            <p>Imported prosciutto di Parma, sopressata, fresh mozzarella, marinated artichokes, olives, roasted peppers.</p>
+                        </article>
+                        <article class="menu__item reveal" style="--d:.05s">
+                            <span class="menu__num">02</span>
+                            <div class="menu__row">
+                                <h4>Burrata & Heirloom</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$18</span>
+                            </div>
+                            <p>Pugliese burrata, heirloom tomatoes, basil, aged balsamic, Sicilian olive oil, sea salt.</p>
+                        </article>
+                        <article class="menu__item reveal" style="--d:.1s">
+                            <span class="menu__num">03</span>
+                            <div class="menu__row">
+                                <h4>Polpette al Sugo</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$16</span>
+                            </div>
+                            <p>House meatballs in San Marzano gravy, ricotta, basil, charred sourdough.</p>
+                        </article>
+                        <article class="menu__item reveal" style="--d:.15s">
+                            <span class="menu__num">04</span>
+                            <div class="menu__row">
+                                <h4>Carpaccio di Manzo</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$19</span>
+                            </div>
+                            <p>Thin-sliced raw beef, arugula, lemon, parmigiano-reggiano, capers, truffle oil.</p>
+                        </article>
+                    </div>
+                    <div class="menu__photo reveal" style="--d:.1s">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1000&q=85" alt="Antipasto board" loading="lazy" />
+                    </div>
+                </div>
+
+                <!-- PRIMI -->
+                <div class="menu__panel" data-cat="primi">
+                    <div class="menu__list">
+                        <article class="menu__item">
+                            <span class="menu__num">01</span>
+                            <div class="menu__row">
+                                <h4>Tagliatelle al Tartufo</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$32</span>
+                            </div>
+                            <p>Hand-cut tagliatelle, black truffle, parmigiano cream, brown butter, chives.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">02</span>
+                            <div class="menu__row">
+                                <h4>Rigatoni alla Vodka</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$24</span>
+                            </div>
+                            <p>San Marzano, vodka, cream, calabrian chili, pecorino, fresh basil.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">03</span>
+                            <div class="menu__row">
+                                <h4>Linguine alle Vongole</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$28</span>
+                            </div>
+                            <p>Fresh manila clams, white wine, garlic, parsley, chili, lemon.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">04</span>
+                            <div class="menu__row">
+                                <h4>Gnocchi al Pomodoro</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$22</span>
+                            </div>
+                            <p>House-made potato gnocchi, slow-roasted tomato, fresh mozzarella, basil oil.</p>
+                        </article>
+                    </div>
+                    <div class="menu__photo">
+                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1000&q=85" alt="Pasta dish" loading="lazy" />
+                    </div>
+                </div>
+
+                <!-- SECONDI -->
+                <div class="menu__panel" data-cat="secondi">
+                    <div class="menu__list">
+                        <article class="menu__item">
+                            <span class="menu__num">01</span>
+                            <div class="menu__row">
+                                <h4>Pollo alla Parmigiana</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$26</span>
+                            </div>
+                            <p>Pounded chicken, San Marzano, fresh mozzarella, basil, served over linguine.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">02</span>
+                            <div class="menu__row">
+                                <h4>Branzino al Forno</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$34</span>
+                            </div>
+                            <p>Whole roasted Mediterranean sea bass, lemon, capers, fingerling potatoes.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">03</span>
+                            <div class="menu__row">
+                                <h4>Osso Buco</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$36</span>
+                            </div>
+                            <p>Braised veal shank, gremolata, saffron risotto Milanese.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">04</span>
+                            <div class="menu__row">
+                                <h4>Bistecca Fiorentina</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$58</span>
+                            </div>
+                            <p>32oz dry-aged porterhouse, rosemary, sea salt, lemon, charred radicchio.</p>
+                        </article>
+                    </div>
+                    <div class="menu__photo">
+                        <img src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=1000&q=85" alt="Italian main course" loading="lazy" />
+                    </div>
+                </div>
+
+                <!-- DOLCI -->
+                <div class="menu__panel" data-cat="dolci">
+                    <div class="menu__list">
+                        <article class="menu__item">
+                            <span class="menu__num">01</span>
+                            <div class="menu__row">
+                                <h4>Tiramisù della Casa</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$12</span>
+                            </div>
+                            <p>Espresso-soaked ladyfingers, mascarpone cream, dark cocoa, marsala.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">02</span>
+                            <div class="menu__row">
+                                <h4>Cannoli Siciliani</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$10</span>
+                            </div>
+                            <p>Crispy shells, sweet ricotta, candied orange, pistachio, dark chocolate.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">03</span>
+                            <div class="menu__row">
+                                <h4>Panna Cotta</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$11</span>
+                            </div>
+                            <p>Vanilla bean panna cotta, macerated berries, amaretto, mint.</p>
+                        </article>
+                        <article class="menu__item">
+                            <span class="menu__num">04</span>
+                            <div class="menu__row">
+                                <h4>Affogato</h4>
+                                <span class="menu__dots"></span>
+                                <span class="menu__price">$9</span>
+                            </div>
+                            <p>House gelato, hot espresso, biscotti, sea salt.</p>
+                        </article>
+                    </div>
+                    <div class="menu__photo">
+                        <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=1000&q=85" alt="Italian dessert" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAILY SPECIALS -->
+    <section id="specials" class="specials section section--light section--stone">
+        <div class="container">
+            <div class="section__head section__head--center">
+                <span class="chapter reveal">04 — Daily Specials</span>
+                <h2 class="display reveal" style="--d:.1s">A different <em>chef's table</em> every day.</h2>
+                <p class="section__sub reveal" style="--d:.2s">Seven days. Seven traditions. Each one cooked the way Nonna would have demanded.</p>
+            </div>
+
+            <div class="specials__days reveal" id="specialsDays">
+                <button class="specials__day" data-day="0">Mon</button>
+                <button class="specials__day" data-day="1">Tue</button>
+                <button class="specials__day" data-day="2">Wed</button>
+                <button class="specials__day" data-day="3">Thu</button>
+                <button class="specials__day" data-day="4">Fri</button>
+                <button class="specials__day" data-day="5">Sat</button>
+                <button class="specials__day" data-day="6">Sun</button>
+            </div>
+
+            <div class="specials__stage" id="specialsStage">
+                <!-- panels rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CATERING -->
+    <section id="catering" class="catering section">
+        <div class="container">
+            <div class="catering__grid">
+                <div class="catering__media">
+                    <div class="catering__photo catering__photo--main reveal">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=88" data-fb="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1400&q=88" alt="Wedding catering setup" loading="lazy" />
+                    </div>
+                    <div class="catering__photo catering__photo--small reveal" style="--d:.2s">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=900&q=85" data-fb="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=900&q=88" alt="Corporate catering" loading="lazy" />
+                    </div>
+                    <div class="catering__photo catering__photo--tiny reveal" style="--d:.4s">
+                        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=700&q=85" data-fb="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=700&q=88" alt="Private dinner" loading="lazy" />
+                    </div>
+                    <div class="catering__price reveal" style="--d:.3s">
+                        <span>From</span>
+                        <strong>$24</strong>
+                        <span>per person</span>
+                    </div>
+                </div>
+
+                <div class="catering__text">
+                    <span class="chapter reveal">05 — Catering</span>
+                    <h2 class="display reveal" style="--d:.1s">Big <em>moments</em>, served right.</h2>
+
+                    <p class="reveal" style="--d:.2s">
+                        Weddings of 250. Corporate lunches for 12. Sunday family dinners that need to feel like Sunday family dinners. We cater all of them — and we treat all of them like ours.
+                    </p>
+
+                    <ul class="catering__features">
+                        <li class="reveal" style="--d:.3s"><span>01</span><div><strong>Custom menus</strong>Built around your event, dietary needs, and theme.</div></li>
+                        <li class="reveal" style="--d:.35s"><span>02</span><div><strong>Full service</strong>Setup, staffing, and breakdown — white-glove from start to end.</div></li>
+                        <li class="reveal" style="--d:.4s"><span>03</span><div><strong>Imported ingredients</strong>Direct from Italy. Fresh from local farms. Never frozen.</div></li>
+                        <li class="reveal" style="--d:.45s"><span>04</span><div><strong>Trusted by 500+</strong>Companies, venues, and families across the tri-state.</div></li>
+                    </ul>
+
+                    <div class="catering__ctas reveal" style="--d:.55s">
+                        <a href="#contact" class="btn btn--primary btn--lg">
+                            <span>Get a quote</span>
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                        </a>
+                        <a href="tel:+18456234500" class="btn btn--ghost btn--lg">
+                            <span>Call us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DELIVERY -->
+    <section id="delivery" class="delivery section">
+        <div class="delivery__bg" aria-hidden="true"></div>
+        <div class="container">
+            <div class="section__head section__head--center">
+                <span class="chapter reveal">06 — Delivery</span>
+                <h2 class="display reveal" style="--d:.1s">From our kitchen to <em>your door</em>.</h2>
+                <p class="section__sub reveal" style="--d:.2s">Skip the line. Order through the apps you already love — your Leonardo's favorites, hot at home.</p>
+            </div>
+
+            <div class="delivery__stage reveal" id="deliveryStage">
+                <button class="delivery__nav delivery__nav--prev" id="deliveryPrev" aria-label="Previous">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+
+                <div class="delivery__cards" id="deliveryCards">
+                    <a href="#" target="_blank" rel="noopener" class="d-card d-card--grubhub" data-idx="0">
+                        <div class="d-card__inner">
+                            <div class="d-card__icon">
+                                <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 9l-1 13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2l-1-13M3 9h18M8 9V6a4 4 0 0 1 8 0v3"/></svg>
+                            </div>
+                            <span class="d-card__label">Available on</span>
+                            <h3>Grubhub</h3>
+                            <p>Fast local delivery, fresh from our deli to your door in minutes.</p>
+                            <span class="d-card__cta">
+                                <span>Order on Grubhub</span>
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#" target="_blank" rel="noopener" class="d-card d-card--uber" data-idx="1">
+                        <div class="d-card__inner">
+                            <div class="d-card__icon">
+                                <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M3 13h11a3 3 0 1 0 0-2H3"/></svg>
+                            </div>
+                            <span class="d-card__label">Available on</span>
+                            <h3>Uber Eats</h3>
+                            <p>On-demand, contactless, on time. Track your order from kitchen to door.</p>
+                            <span class="d-card__cta">
+                                <span>Order on Uber Eats</span>
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#" target="_blank" rel="noopener" class="d-card d-card--door" data-idx="2">
+                        <div class="d-card__inner">
+                            <div class="d-card__icon">
+                                <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 9h13a5 5 0 0 1 0 10H7"/><path d="M2 13h11"/></svg>
+                            </div>
+                            <span class="d-card__label">Available on</span>
+                            <h3>DoorDash</h3>
+                            <p>Wide reach across the tri-state, white-glove handoff at your door.</p>
+                            <span class="d-card__cta">
+                                <span>Order on DoorDash</span>
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+                <button class="delivery__nav delivery__nav--next" id="deliveryNext" aria-label="Next">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+
+            <div class="delivery__dots" id="deliveryDots" aria-label="Delivery options"></div>
+
+            <p class="delivery__note reveal" style="--d:.4s">
+                Prefer to call? Reach us directly at
+                <a href="tel:+18456234500">(845) 623-4500</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__text">
+                    <span class="chapter reveal">07 — Contact</span>
+                    <h2 class="display reveal" style="--d:.1s">Let's plan something <em>delicious</em>.</h2>
+
+                    <p class="reveal" style="--d:.2s">Drop us a note and we'll be in touch within 24 hours with a custom quote tailored to your event.</p>
+
+                    <ul class="contact__list">
+                        <li class="reveal" style="--d:.3s">
+                            <span class="contact__lbl">Visit</span>
+                            <span class="contact__val">Main Street, New City, NY 10956</span>
+                        </li>
+                        <li class="reveal" style="--d:.35s">
+                            <span class="contact__lbl">Call</span>
+                            <a class="contact__val" href="tel:+18456234500">(845) 623-4500</a>
+                        </li>
+                        <li class="reveal" style="--d:.4s">
+                            <span class="contact__lbl">Email</span>
+                            <a class="contact__val" href="mailto:catering@leosdelicatering.com">catering@leosdelicatering.com</a>
+                        </li>
+                        <li class="reveal" style="--d:.45s">
+                            <span class="contact__lbl">Hours</span>
+                            <span class="contact__val">Mon–Sat 7am–8pm · Sun 8am–6pm</span>
+                        </li>
+                    </ul>
+
+                    <div class="contact__map reveal" style="--d:.55s">
+                        <iframe src="https://maps.google.com/maps?q=new+city+ny&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Leonardo's location"></iframe>
+                    </div>
+                </div>
+
+                <form class="contact__form reveal" style="--d:.2s" id="contactForm">
+                    <h3>Request a quote</h3>
+                    <p class="contact__form-sub">We respond within 24 hours.</p>
+
+                    <div class="form-row">
+                        <label class="field"><input type="text" name="name" required placeholder=" " /><span>Full Name</span></label>
+                        <label class="field"><input type="email" name="email" required placeholder=" " /><span>Email</span></label>
+                    </div>
+                    <div class="form-row">
+                        <label class="field"><input type="tel" name="phone" placeholder=" " /><span>Phone</span></label>
+                        <label class="field"><input type="date" name="date" placeholder=" " /><span>Event Date</span></label>
+                    </div>
+                    <div class="form-row">
+                        <label class="field"><select name="event" required><option value="">Event Type</option><option>Wedding</option><option>Corporate</option><option>Family Gathering</option><option>Private Party</option><option>Holiday Event</option><option>Other</option></select><span>Event Type</span></label>
+                        <label class="field"><input type="number" name="guests" min="1" placeholder=" " /><span>Guest Count</span></label>
+                    </div>
+                    <label class="field field--full"><textarea name="message" rows="4" placeholder=" "></textarea><span>Tell us about your event</span></label>
+
+                    <button type="submit" class="btn btn--primary btn--lg btn--block">
+                        <span>Send Request</span>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__hero">
+                <h2 class="display footer__display">
+                    Mangia <em>bene</em>,<br/>
+                    vivi <em>bene</em>.
+                </h2>
+                <p class="footer__display-sub">Eat well, live well. — Since 1924.</p>
+            </div>
+
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <span class="footer__logo-plate">
+                        <img src="assets/logo.jpg" alt="Leonardo's" onerror="this.style.display='none'; this.parentElement.classList.add('footer__logo-plate--fallback');" />
+                        <span class="footer__brand-fallback" aria-hidden="true">L</span>
+                    </span>
+                    <p>Authentic Italian deli & catering, family-owned in New City, NY since 1924.</p>
+                </div>
+                <div class="footer__col">
+                    <h5>Visit</h5>
+                    <p>Main Street<br/>New City, NY 10956</p>
+                    <a href="tel:+18456234500">(845) 623-4500</a>
+                </div>
+                <div class="footer__col">
+                    <h5>Hours</h5>
+                    <p>Mon–Sat 7am–8pm</p>
+                    <p>Sun 8am–6pm</p>
+                </div>
+                <div class="footer__col">
+                    <h5>Follow</h5>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Yelp</a>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <span>© <span id="year"></span> Leonardo's Italian Deli & Catering</span>
+                <span class="footer__credit">Crafted in New York</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Order FAB -->
+    <div class="fab" id="fab">
+        <div class="fab__menu" id="fabMenu">
+            <a href="#" target="_blank" rel="noopener" class="fab__item fab__item--grubhub">
+                <span class="fab__mark">G</span>
+                <span>Grubhub</span>
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="fab__item fab__item--uber">
+                <span class="fab__mark">U</span>
+                <span>Uber Eats</span>
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="fab__item fab__item--door">
+                <span class="fab__mark">D</span>
+                <span>DoorDash</span>
+            </a>
+        </div>
+        <button type="button" class="fab__toggle" id="fabToggle" aria-label="Order Now">
+            <span class="fab__icon">
+                <svg class="fab__bag" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 9l-1 13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2l-1-13M3 9h18M8 9V6a4 4 0 0 1 8 0v3"/></svg>
+                <svg class="fab__close" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </span>
+            <span class="fab__label">Order Now</span>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
